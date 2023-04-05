@@ -3,9 +3,11 @@
  
 This code pulls the current price from energidataservice API
 
-# Script setup
-You only have to 
+# Setup
+
 - ### First enter The Shelly's Web UI By entering it's ip-adress in a browser.
+
+![My Image](Screenshots/bar.png)
  
 
 - ### Go to Setting

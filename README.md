@@ -31,16 +31,13 @@ This code pulls the current price from energidataservice API
 
 
 - ### Paste in the Code
-
-![My Image](Screenshots/5.png)
-
-
+- # (also found in spotprice_dkk.js)
 ```
 let CONFIG = {
-  api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK2%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23",
+  api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22LANDEKODE%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=1&offset=23",
   switchId: 0,             // ID of the switch to control
-  price_limit: 500,        // EUR/MWh. Vat not included
-  update_time: 5000,      // 1 minute. Price update interval in milliseconds
+  price_limit: 2000,        // EUR/MWh. Vat not included
+  update_time: 60000,      // 1 minute. Price update interval in milliseconds
   reverse_switching: false // If true, switch will be turned on when price is over the limit
 };
 

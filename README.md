@@ -1,7 +1,8 @@
  
-# Turn Shelly On/Off Based on Energi Data Service Danish current Spotprice
+# Turn Shelly On/Off Based on current Danish spotprice from Energi Data Service Danish
+## Price don’t include VAT and are measured in DKK/MWh
  
-This code pulls the current price from energidataservice API
+This code pulls the current spotprice from energidataservice API `http://api.energidataservice.dk`
 
 # Setup
 
@@ -154,6 +155,9 @@ Will set toggling threshold for the device to 1.5 DKK/kWh
  
 ## Setting relay to switch.
 Most shelly devices have only one output(relay). If you want to change the output channel find `switchId` and set it to the desired output.
- 
+
+- ### After you have done the configuration You just have to press Save and Start :)
+
+![My Image](Screenshots/4.png)
 
 

@@ -31,7 +31,7 @@ This code pulls the current spotprice from energidataservice API `http://api.ene
 ![My Image](Screenshots/4.png)
 
 
-- ### Paste in the Code (also found in spotprice_dkk.js)
+- ### Paste in this Code (also found in spotprice_dkk.js)
 
 ```
  let CONFIG = {

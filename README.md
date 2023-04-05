@@ -5,17 +5,18 @@ This code pulls the current price from energidataservice API
 
 # Script setup
 You only have to 
-First enter The Shelly's Web UI By entering it's ip-adress in a browser.
+- ### First enter The Shelly's Web UI By entering it's ip-adress in a browser.
  
 
 - ### Go to Setting
 
 ![My Image](Screenshots/1.png)
 
-Go to Debug
+- ### Go to Debug
+
 ![My Image](Screenshots/2.png)
 
-Enable Websocket debug and Save Settings
+- ### Enable Websocket debug and Save Settings
 
 ![My Image](Screenshots/3.png)
 

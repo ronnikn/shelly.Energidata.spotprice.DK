@@ -1,7 +1,7 @@
  
-# sdpool price 💶 switching to your shelly device
+# Turn Shelly On/Off Based on Energi Data Service Danish current Spotprice
  
-This code works if you live in Estonia 🇪🇪, Lithuania 🇱🇻, Latvia 🇱🇹 or Finland 🇫🇮. Just change the country code in the API endpoint.
+This code pulls the current price from energidataservice API
 
 # Script setup
 Make sure your Shelly device is connected to the Internet and accessible from LAN.

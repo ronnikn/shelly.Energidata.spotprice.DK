@@ -31,7 +31,7 @@ This code pulls the current price from energidataservice API
 
 
 - ### Paste in the Code
-- # (also found in spotprice_dkk.js)
+### (also found in spotprice_dkk.js)
 ```
  let CONFIG = {
   api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22LANDEKODE%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23",

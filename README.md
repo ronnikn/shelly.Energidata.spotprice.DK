@@ -4,22 +4,11 @@
 This code pulls the current price from energidataservice API
 
 # Script setup
-Make sure your Shelly device is connected to the Internet and accessible from LAN.
-* Login to the cloud ☁️
-* Find device
-* Click settings
-* Device information
-* Device IP
-This should open in a new browser window with local access to Shelly's device.
+Enter The Shelly's Web UI By entering it's ip-adress in browser.
  
-## Installing Script
- 
-* Click on **Scripts** button
-* Open **Libary** modular
-* Push **Configure URL** button
-* Paste URL `https://raw.githubusercontent.com/martinkangur/shelly/main/SHELLY_MJS.md`
-* Click on desired script
- 
+
+
+
 
 ## Configure API endpoint
 Find `api_endpoint` and change `#COUNTRY_CODE#` 🌍 to ee, lv, lt or fi

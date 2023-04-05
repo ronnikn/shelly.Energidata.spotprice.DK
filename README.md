@@ -144,16 +144,16 @@ Find `api_endpoint` and change `LANDEKODE` to
 - `DK2` For Fyn / Jylland
 
 EX. For Sjælland
- `api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22LANDEKODE%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"`
+ `api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK1%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"`
  
-## Set your price point  👈
-Find configuration value `price_limit` will be set when your device turns on or off. Prices don’t include VAT and are measured in DKK/MWh
+## Set your price point  
+Find configuration value `price_limit` and change value for when your device turns on or off. Prices don’t include VAT and are measured in DKK/MWh
 ### Example
-```  price_limit: 200 ```
-Will set toggling threshold for the device to 200 DKK/MWh
+```  price_limit: 1500 ```
+Will set toggling threshold for the device to 1.5 DKK/kWh
  
 ## Setting relay to switch.
 Most shelly devices have only one output(relay). If you want to change the output channel find `switchId` and set it to the desired output.
  
 
-![alt text](https://i0.wp.com/dimmer.ee/wp-content/uploads/2022/09/09-trim.jpg?resize=223%2C40&ssl=1)
+

@@ -7,7 +7,7 @@ This code pulls the current price from energidataservice API
 Enter The Shelly's Web UI By entering it's ip-adress in browser.
  
 
-![/screenshots](1.jpg)
+![My Image](screenshots/1.png)
 
 
 ## Configure API endpoint

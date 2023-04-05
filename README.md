@@ -30,8 +30,8 @@ This code pulls the current price from energidataservice API
 ![My Image](Screenshots/4.png)
 
 
-- ### Paste in the Code
-### (also found in spotprice_dkk.js)
+- ### Paste in the Code (also found in spotprice_dkk.js)
+
 ```
  let CONFIG = {
   api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22LANDEKODE%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23",
@@ -139,10 +139,12 @@ Timer.set(CONFIG.update_time, true, function (userdata) {
 });
 ```
 ## Configure API endpoint
-Find `api_endpoint` and change `#COUNTRY_CODE#` 🌍 to ee, lv, lt or fi
-```
-api_endpoint: "https://dashboard.elering.ee/api/nps/price/#COUNTRY_CODE#/current"
-```
+Find `api_endpoint` and change `LANDEKODE` to 
+- DK1 for Sjælland 
+- DK2 For Fyn / Jylland
+
+EX. For Sjælland
+ api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22LANDEKODE%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"
  
 ## Set your price point  👈
 Find configuration value `price_limit` will be set when your device turns on or off. Prices don’t include VAT and are measured in DKK/MWh

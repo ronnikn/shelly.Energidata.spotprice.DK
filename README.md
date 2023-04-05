@@ -6,7 +6,7 @@ This code pulls the current spotprice from energidataservice API `http://api.ene
 
 # Setup
 
-- ### First enter The Shelly's Web UI By entering it's ip-adress in a browser.
+- ### First enter The Shelly's Web UI by entering it's ip-adress in a browser.
 
 ![My Image](Screenshots/bar.png)
  

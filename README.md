@@ -24,7 +24,7 @@ You only have to
 
 
 - ### Add Script
-- 
+
 ![My Image](Screenshots/4.png)
 
 

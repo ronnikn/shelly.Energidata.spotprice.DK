@@ -33,7 +33,9 @@ This code pulls the current price from energidataservice API
 - ### Paste in the Code
 
 ![My Image](Screenshots/5.png)
-'''
+
+
+```
 let CONFIG = {
   api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK2%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23",
   switchId: 0,             // ID of the switch to control
@@ -46,7 +48,7 @@ let current_price = null;
 let last_hour = null;
 let last_price = null;
 let state = null;
-'''
+```
 ## Configure API endpoint
 Find `api_endpoint` and change `#COUNTRY_CODE#` 🌍 to ee, lv, lt or fi
 ```

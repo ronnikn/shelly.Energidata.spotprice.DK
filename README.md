@@ -8,7 +8,7 @@ You only have to
 First enter The Shelly's Web UI By entering it's ip-adress in a browser.
  
 
-### - Go to Setting
+- Go to Setting
 
 ![My Image](Screenshots/1.png)
 

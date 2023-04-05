@@ -1,3 +1,3 @@
-Spotprice_dkk.js: Turn device ON or OFF based price 
+spotprice_dkk.js: Turn device ON or OFF based price 
 ===
 Set you upper electricity price limit and shelly will turn on or off

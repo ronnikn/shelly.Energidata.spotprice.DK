@@ -12,13 +12,25 @@ You only have to
 
 ![My Image](Screenshots/1.png)
 
+
 - ### Go to Debug
 
 ![My Image](Screenshots/2.png)
 
+
 - ### Enable Websocket debug and Save Settings
 
 ![My Image](Screenshots/3.png)
+
+
+- ### Add Script
+- 
+![My Image](Screenshots/4.png)
+
+
+- ### Paste in the Code
+
+![My Image](Screenshots/5.png)
 
 
 

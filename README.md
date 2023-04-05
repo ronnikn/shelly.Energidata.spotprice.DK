@@ -1,6 +1,6 @@
  
 # Turn Shelly On/Off based on current Danish spotprice from Energi Data Service
-## Price don’t include VAT and are measured in DKK/MWh
+### Price don’t include VAT and are measured in DKK/MWh
  
 This code pulls the current spotprice from energidataservice API `http://api.energidataservice.dk`
 
@@ -145,7 +145,8 @@ Find `api_endpoint` and change `LANDEKODE` to
 - `DK2` For Fyn / Jylland
 
 EX. For Sjælland
- `api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK1%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"`
+
+`api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK1%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"`
  
 ## Set your price point  
 Find configuration value `price_limit` and change value for when your device turns on or off. Prices don’t include VAT and are measured in DKK/MWh
@@ -161,3 +162,5 @@ Most shelly devices have only one output(relay). If you want to change the outpu
 ![My Image](Screenshots/4.png)
 
 
+# (Note) Setting relay to switch.
+Most shelly devices have only one output(relay). If you want to change the output channel find `switchId` and set it to the desired output.

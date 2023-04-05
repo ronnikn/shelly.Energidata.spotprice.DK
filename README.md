@@ -1,6 +1,6 @@
  
 # Turn Shelly On/Off based on current Danish spotprice from Energi Data Service
-### Price don’t include VAT and are measured in DKK/MWh
+Price don’t include VAT and are measured in DKK/MWh
  
 This code pulls the current spotprice from energidataservice API `http://api.energidataservice.dk`
 

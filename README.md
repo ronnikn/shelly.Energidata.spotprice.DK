@@ -157,7 +157,7 @@ Will set toggling threshold for the device to 1.5 DKK/kWh
 ## Setting relay to switch.
 Most shelly devices have only one output(relay). If you want to change the output channel find `switchId` and set it to the desired output.
 
-- ### After you have done the configuration You just have to press Save and Start :)
+- ### After you have done the configuration Give the script a name press Save and Start :)
 
 ![My Image](Screenshots/5.png)
 

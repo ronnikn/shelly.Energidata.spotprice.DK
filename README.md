@@ -142,7 +142,7 @@ Timer.set(CONFIG.update_time, true, function (userdata) {
 ## Configure API endpoint
 Find `api_endpoint` and change `LANDEKODE` to 
 - `DK1` For Fyn / Jylland
-- `DK2` Sjælland
+- `DK2` For Sjælland
 
 EX. For Sjælland
 

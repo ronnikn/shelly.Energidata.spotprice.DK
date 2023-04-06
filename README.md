@@ -159,7 +159,7 @@ Most shelly devices have only one output(relay). If you want to change the outpu
 
 - ### After you have done the configuration You just have to press Save and Start :)
 
-![My Image](Screenshots/4.png)
+![My Image](Screenshots/5.png)
 
 
 ### (Note) Setting relay to switch.

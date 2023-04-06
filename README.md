@@ -26,7 +26,7 @@ This code pulls the current spotprice from energidataservice API `http://api.ene
 ![My Image](Screenshots/3.png)
 
 
-- ### go to Scripts and Add script
+- ### Go to Scripts and Add script
 
 ![My Image](Screenshots/4a.png)
 

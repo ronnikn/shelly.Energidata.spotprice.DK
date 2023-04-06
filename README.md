@@ -162,5 +162,5 @@ Most shelly devices have only one output(relay). If you want to change the outpu
 ![My Image](Screenshots/4.png)
 
 
-# (Note) Setting relay to switch.
+### (Note) Setting relay to switch.
 Most shelly devices have only one output(relay). If you want to change the output channel find `switchId` and set it to the desired output.

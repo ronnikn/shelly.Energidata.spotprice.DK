@@ -26,9 +26,9 @@ This code pulls the current spotprice from energidataservice API `http://api.ene
 ![My Image](Screenshots/3.png)
 
 
-- ### Add Script
+- ### go to Scripts and Add script
 
-![My Image](Screenshots/4.png)
+![My Image](Screenshots/4a.png)
 
 
 - ### Paste in this Code (also found in spotprice_dkk.js)

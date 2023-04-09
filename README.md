@@ -153,9 +153,6 @@ Find configuration value `price_limit` and change value for when your device tur
 ### Example
 ```  price_limit: 1500 ```
 Will set toggling threshold for the device to 1.5 DKK/kWh
- 
-## Setting relay to switch.
-Most shelly devices have only one output(relay). If you want to change the output channel find `switchId` and set it to the desired output.
 
 - ### After you have done the configuration Give the script a name press Save and Start :)
 

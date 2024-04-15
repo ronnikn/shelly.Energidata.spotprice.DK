@@ -39,7 +39,7 @@ This code pulls the current spotprice from energidataservice API `http://api.ene
   switchId: 0,             // ID of the switch to control
   price_limit: 2000,        // Dkk/MWh. Vat not included
   update_time: 60000,      // 1 minute. Price update interval in milliseconds
-  reverse_switching: false // If true, switch will be turned on when price is over the limit
+  reverse_switching: false // If true, switch will be turned off when price is over the limit
 };
 
 let current_price = null;

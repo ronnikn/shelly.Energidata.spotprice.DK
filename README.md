@@ -108,7 +108,7 @@ Timer.set(CONFIG.update_time, true, function (userdata) {
       if (current_price !== null) {
 
         //Normal switching. Turn relay off if price is over the limit
-        if(CONFIG.reverse_switching === true) {
+        if(CONFIG.reverse_switching === false) {
           if (current_price >= CONFIG.price_limit) {
             //swith relay off if price is higher than limit
             changeSwitchState(false);
@@ -119,7 +119,7 @@ Timer.set(CONFIG.update_time, true, function (userdata) {
         }
 
         //Reverse switching. Turn relay on if price is over the limit
-        if(CONFIG.reverse_switching === false) {
+        if(CONFIG.reverse_switching === true) {
           if (current_price >= CONFIG.price_limit) {
             //swith relay on if price is higher than limit
             changeSwitchState(true);

@@ -146,7 +146,7 @@ Find `api_endpoint` and change `LANDEKODE` to
 
 EX. For Sjælland
 
-`api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK1%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"`
+`api_endpoint: "http://api.energidataservice.dk/dataset/Elspotprices?filter={%22PriceArea%22:[%22DK2%22]}&columns=SpotPriceDKK,HourDK&sort=HourDK&start=now-P1D&limit=2&offset=23"`
  
 ## Set your price point  
 Find configuration value `price_limit` and change value for when your device turns on or off. Prices don’t include VAT and are measured in DKK/MWh
